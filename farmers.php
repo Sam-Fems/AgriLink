@@ -21,8 +21,12 @@
   <body class="container">
     <nav class="navbar bar fixed-top navbar-expand-lg mb-5 glass-navbar">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.php">
-          <img width="60" height="60" src="images/logo.png" alt=""/>
+        <a class="navbar-brand d-flex align-items-center" href="index.php">
+          <img width="56" height="56" src="images/logo.png" alt=""/>
+          <div class="ms-2 d-none d-md-block">
+            <div style="font-weight:800; color:#1fa97a;">AgriLink</div>
+            <small class="text-muted">Farmers → Consumers</small>
+          </div>
         </a>
           <button
             class="navbar-toggler"
